@@ -14,7 +14,9 @@ const About = () => {
                     <div className='row'><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis laboriosam culpa illo ad officiis recusandae quaerat cupiditate iste beatae nemo ratione eum vel maiores veniam, ex maxime non enim molestias!</p></div>
                 </div>
             </div>
+            <hr />
         </div>
+        
     </section>
   )
 }

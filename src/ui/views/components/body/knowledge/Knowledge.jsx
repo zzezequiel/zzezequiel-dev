@@ -10,29 +10,34 @@ const Knowledge = () => {
   return (
     <>
     <section>
-        <div className='container'>
-            <div className='row '><h2 className='text-center'>Knowledge</h2></div>
-                <div className='container'>
+        <div className='container mt-5'>
+            
+            <div className=' row text-center cont-k-row'>
+                <h2 className='text-center p-3 k-title'>Knowledge</h2>
+            </div>
+            <div className='row text-center mt-3'>
+                <div className=' d-flex '>
                     <div className='col'>
-                        <div className='row'><img className='k-img' src={react_logo}></img></div>
+                        <img className='k-img' src={react_logo}></img>
                     </div>
                     <div className='col'>
-                        <div className='row'><img className='k-img' src={php_logo}></img></div>
+                        <img className='k-img' src={php_logo}></img>
                     </div>
                     <div className='col'>
-                        <div className='row'><img className='k-img' src={node_logo}></img></div>
+                        <img className='k-img' src={node_logo}></img>
                     </div>
                     <div className='col'>
-                        <div className='row'><img className='k-img' src={git_logo}></img></div>
+                        <img className='k-img' src={git_logo}></img>
                     </div>
                     <div className='col'>
-                        <div className='row'><img className='k-img' src={js_logo}></img></div>
+                        <img className='k-img' src={js_logo}></img>
                     </div>
                     <div className='col'>
-                        <div className='row'><img className='k-img' src={mongo_logo}></img></div>
+                        <img className='k-img' src={mongo_logo}></img>
                     </div>
                 </div>
                 
+            </div>
             </div>
         
     </section>
