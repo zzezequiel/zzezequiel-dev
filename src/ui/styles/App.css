@@ -1,0 +1,61 @@
+.body-bg{
+  background-image: url(../img/bann.jpg);
+  min-height: 300vw;
+  background-position: -1000px -550px;
+  margin: 0;
+  color: white;
+}
+
+
+/*----------------------------------------------------NAVBAR------------------------------------------------------------------*/
+ .navbar {
+  background-color: rgb(1,1,1);
+ }
+ .nav-title {
+  color: white;
+ }
+ .nav-menu{
+  background-color: white;
+  color: white;
+ }
+/*----------------------------------------------------BANNER------------------------------------------------------------------*/
+
+.cont-banner-row {
+  justify-content: center;
+
+}
+.cont-title {
+  background: rgb(255, 255, 255, 0.9);
+  border-radius: 50px;
+  width: 40vw;
+  color: black;
+  mix-blend-mode: screen;
+}
+/*----------------------------------------------------ABOUT------------------------------------------------------------------*/
+.about-img {
+  width: 50%;
+}
+.about-text-bg {
+  border-radius: 50px;
+
+  background: rgb(255, 255, 255, 0.6);
+  width: fit-content;
+  height: fit-content;
+  color: black;
+
+}
+/*----------------------------------------------------KNOWLEDGE------------------------------------------------------------------*/
+
+.k-img {
+  width: 15%;
+}
+
+/*----------------------------------------------------FOOTER------------------------------------------------------------------*/
+
+
+.footer-bg {
+
+  background-color: rgb(1,1,1);
+  margin: 0;
+  
+}
