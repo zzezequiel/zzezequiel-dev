@@ -12,9 +12,7 @@ const Knowledge = () => {
     <section>
         <div className='container mt-5'>
             
-            <div className=' row text-center cont-k-row'>
-                <h2 className='text-center p-3 k-title'>Knowledge</h2>
-            </div>
+            
             <div className='row text-center mt-3'>
                 <div className=' d-flex '>
                     <div className='col'>

@@ -4,10 +4,24 @@
   background-position: -1000px -550px;
   margin: 0;
   color: white;
+  padding-top: 100px;
+ 
+}
+.cont-bg {
+  
+  background: rgb(0, 0, 0, 0.6);
+  border-radius: 100px;
+
 }
 hr {
+  margin: 3vw 0 3vw 0;
   border-radius: 25px;
   border: 5px solid rgb(255, 255, 255)
+}
+.justify-text{
+  text-align: justify;
+  text-justify: inter-word;
+
 }
 
 /*----------------------------------------------------NAVBAR------------------------------------------------------------------*/
@@ -28,7 +42,7 @@ hr {
 
 }
 .cont-title {
-  background: rgb(255, 255, 255, 0.9);
+  background: rgb(255, 255, 255);
   border-radius: 50px;
   width: 40vw;
   color: black;
@@ -39,13 +53,55 @@ hr {
   width: 50%;
 }
 .about-text-bg {
-  border-radius: 50px;
+  border-radius: 50px 50px 0 0;
 
   background: rgb(255, 255, 255, 0.6);
-  width: fit-content;
+  
   height: fit-content;
   color: rgb(1,1,1);
 
+}
+.cont-portfolio{
+  background: rgb(255, 255, 255, 0.6);
+  border-radius: 50px 0 50px 50px;
+
+}
+.title-portfolio {
+display: flex;
+justify-content: start;
+}
+.icon {
+  display: flex;
+  width: fit-content;
+}
+.title-portfolio-text {
+  display: flex;
+  width: fit-content;
+}
+
+
+
+/*----------------------------------------------------PROJECTS------------------------------------------------------------------*/
+
+
+.cart-project {
+  width: 18rem;
+  background: rgb(255, 255, 255, 0.6);
+
+}
+.list-bg {
+  background-color: transparent;
+
+}
+
+
+/*----------------------------------------------------KNOWLEDGE------------------------------------------------------------------*/
+
+.title-details {
+  display: flex;
+  justify-content: start;
+  width: fit-content;
+margin-bottom: 2vh;
 }
 /*----------------------------------------------------KNOWLEDGE------------------------------------------------------------------*/
 .k-title {
