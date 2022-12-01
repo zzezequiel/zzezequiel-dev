@@ -1,10 +1,8 @@
 import React from 'react'
 import About from '../about/About'
 import Banner from '../banner/Banner'
-import Details from '../details/Details'
 import Divider from '../divider/Divider'
-import Education from '../education/Education'
-import Knowledge from '../knowledge/Knowledge'
+import KnowledgeWrapper from '../knowledgeWrapper/KnowledgeWrapper'
 import Projects from '../projects/Projects'
 
 const MainBody = () => {
@@ -14,12 +12,10 @@ const MainBody = () => {
       <div className='container cont-bg p-4'>
         <Banner />
         <About />
+        <KnowledgeWrapper />
         <Divider />
         <Projects />
         <Divider />
-        <Details />
-        <Education />
-        <Knowledge />
       </div>
         
     </div>

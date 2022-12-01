@@ -1,4 +1,5 @@
 import React from 'react'
+import { Title } from '../../../../styles'
 
 
 const Banner = () => {
@@ -6,10 +7,10 @@ const Banner = () => {
     <>
         <div className='container'>
             <div className='row cont-banner-row'>
-                <div className='text-center cont-title mt-5'>
-                    <h1>Ezequiel Zvirgzdins</h1>
-                    <h2>Software Developer</h2>
-                </div>         
+                    <Title>
+                        <h1>Ezequiel Zvirgzdins</h1>
+                        <h2>Software Developer</h2>
+                    </Title>    
             </div>
             <div className='row'>
                 <div className='col text-center'>

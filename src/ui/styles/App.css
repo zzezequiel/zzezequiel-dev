@@ -55,14 +55,14 @@ hr {
 .about-text-bg {
   border-radius: 50px 50px 0 0;
 
-  background: rgb(255, 255, 255, 0.6);
+  background: rgb(255, 255, 255, 0.9);
   
   height: fit-content;
   color: rgb(1,1,1);
 
 }
 .cont-portfolio{
-  background: rgb(255, 255, 255, 0.6);
+  background: rgb(255, 255, 255, 0.9);
   border-radius: 50px 0 50px 50px;
 
 }
@@ -118,7 +118,9 @@ margin-bottom: 2vh;
 .k-img {
   width: 75%;
 }
-
+.k-img-open{
+  width: 30%;
+}
 /*----------------------------------------------------FOOTER------------------------------------------------------------------*/
 
 
